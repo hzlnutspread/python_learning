@@ -35,5 +35,5 @@ async def main():
 
 
 asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-urls = ['https://twitter.com/flufworld', 'https://twitter.com/seekers_xyz']
+urls = ['https://twitter.com/flufworld']
 asyncio.run(main())
